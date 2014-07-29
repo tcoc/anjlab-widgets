@@ -18,6 +18,8 @@ module Anjlab
         "%Y-%m-%d"
       when :ja
         "%Y/%m/%d"
+      when :"zh-TW"
+        "%Y-%m-%d"
       else
         "%Y-%m-%d"
       end
